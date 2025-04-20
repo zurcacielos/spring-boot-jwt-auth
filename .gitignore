@@ -1,0 +1,33 @@
+# === Global ignores ===
+.DS_Store
+Thumbs.db
+*.log
+
+# === Node (frontend-nextjs) ===
+frontend-nextjs/node_modules/
+frontend-nextjs/.next/
+frontend-nextjs/.env
+frontend-nextjs/.turbo/
+frontend-nextjs/package-lock.json
+frontend-nextjs/npm-debug.log
+
+# === Java / Maven (backend-springboot) ===
+backend-springboot/target/
+backend-springboot/.idea/
+backend-springboot/.classpath
+backend-springboot/.project
+backend-springboot/.settings/
+backend-springboot/.mvn/
+backend-springboot/mvnw
+backend-springboot/mvnw.cmd
+backend-springboot/logs/
+backend-springboot/*.log
+
+# === IDE files ===
+*.iml
+.idea/
+.vscode/
+
+# === OS/system files ===
+*.swp
+*~

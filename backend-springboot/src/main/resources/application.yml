@@ -1,0 +1,18 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/${DB_NAME}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+server:
+  port: 8080
+
+jwt:
+  secret: T94@ek!X7%v2m#FqW&jzGp1Ls^B8ZtEo
+  expiration: 3600000

@@ -1,0 +1,1 @@
+This is where your Next.js frontend will go.
