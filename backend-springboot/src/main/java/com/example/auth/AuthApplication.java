@@ -4,11 +4,9 @@ package com.example.auth;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-//@ComponentScan(basePackages = "com.example.auth")
 @EnableJpaRepositories(basePackages = "com.example.auth.repository")
 @EntityScan(basePackages = "com.example.auth.model")
 public class AuthApplication {

@@ -2,12 +2,10 @@
 package com.example.auth.controller;
 
 import com.example.auth.model.AuthRequest;
-import com.example.auth.model.AuthResponse;
 import com.example.auth.service.AuthService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Collections;
 import java.util.Map;
 
 @RestController
