@@ -20,8 +20,6 @@ If you want to use the one on the container.
    cd backend-springboot
    docker-compose up
    ```
-   
-
 
 2. Start backend:
    ```bash
