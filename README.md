@@ -8,8 +8,6 @@
 
 ## 🚀 Usage
 
-# Still in developmnt
-
 1. Run MySQL:
 
 Use any mysql instance and specify the environment variables in your environment, or IDE.
@@ -42,6 +40,7 @@ If you want to use the one on the container.
 And register either a user or an admin, with username password, for example admin/admin.
 
 After registration, you can 
+
 4. Test endpoints:
    - `/auth/register`
    - `/auth/login`
